@@ -1,7 +1,8 @@
 public interface MyInterface {
     int MY_CONSTANT = 42;  // Public, Static, and Final
 
-    
+    void myMethod();  // Public and Abstract
+
     default void defaultMethod() {  // Public and Default
         System.out.println("Default method in interface");
     }
